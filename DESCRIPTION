@@ -1,0 +1,19 @@
+Package: extractionsDonnees
+Title: Extractions Données
+Version: 0.0.0.9000
+Authors@R: 
+    person("Bérénice", "Givord-Coupeau", , "bgivord-coupeau@arthropologia.org", role = c("aut", "cre"))
+Description: Ce package permet d'extraire les informations contenues dans les champs additionnels des fichiers générés par l'interface GéoNature d'Arthropologia.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    cli,
+    stringr,
+    Hmisc,
+    dplyr,
+    magrittr,
+    readr
+Depends: 
+    tidyverse
